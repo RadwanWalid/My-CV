@@ -1,0 +1,165 @@
+body {
+  background-color: #323232;
+  color: white;
+}
+
+h1 {
+  text-decoration: underline;
+}
+
+h4 {
+  font-weight: bold;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+  margin-left: 10px;
+  font-size: 14px;
+}
+
+h6 {
+  display: inline-block;
+}
+
+p {
+  line-height: 15px;
+  text-indent: 5px;
+}
+
+span {
+  margin-left: 150px;
+}
+
+table {
+  margin: auto;
+}
+
+td {
+  width: 200px;
+  height: 35px;
+}
+
+a:hover {
+  color: #D9D9D9;
+}
+
+.data-item {
+  display: inline-block;
+}
+
+.heading {
+  background-color: #252525;
+  display: inline-block;
+  padding-top: 25px;
+  height: auto;
+  width: 100%;
+}
+
+.personal-img {
+  border: 1.75px solid #8F1D14;
+  display: inline;
+  border-radius: 100%;
+  margin-bottom: 25px;
+  margin-left: 25px;
+  height: 125px;
+  width: 125px;
+}
+
+.about-me {
+  display: inline-block;
+  text-indent: 10px;
+}
+
+.name {
+  margin: 0px;
+}
+
+.job-title {
+  font-style: italic;
+  opacity: 75%;
+  margin: 0px;
+}
+
+.ambition {
+  margin-top: 20px;
+}
+
+.data {
+  background-color: black;
+  height: auto;
+  padding-top: 5px;
+  padding-bottom: 7px;
+  width: 100%;
+  margin: 0px;
+}
+
+.data-items {
+  display: inline;
+  width: auto;
+  margin: auto;
+}
+
+.mail-ico, .github-ico {
+  color: white;
+}
+
+.outside {
+  margin: 25px auto 0px auto;
+  border-top-width: 6px;
+  border-radius: 2px;
+  color: #8F1D14;
+  opacity: 100%;
+  width: 90%;
+}
+
+.in-between {
+  margin: 10px auto 10px auto;
+  border-top-width: 3px;
+  border-radius: 2px;
+  color: #414141;
+  opacity: 100%;
+  width: 91%;
+}
+
+.fluid-container {
+  margin: 10px 50px;
+}
+
+.vr {
+  width: 5px;
+  padding: 0px;
+}
+
+.interest-items {
+  border: 1.5px solid white;
+  padding: 7.5px;
+  border-radius: 5px;
+  margin: 5px;
+}
+
+.skill-items {
+  background-color: #8F1D14;
+  border-radius: 5px;
+  padding: 7.5px;
+  margin: 5px;
+}
+
+/* .lang-rate {
+  padding-left: 100px;
+}
+
+.lang-name {
+  text-indent: 100px;
+} */
+
+.bi-circle-fill, .bi-circle {
+  margin: auto 3%;
+}
+
+@media (max-width: 594px) {
+  .vr {
+    display: none;
+  }
+}
