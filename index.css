@@ -28,10 +28,6 @@ p {
   text-indent: 5px;
 }
 
-span {
-  margin-left: 150px;
-}
-
 table {
   margin: auto;
 }
@@ -41,8 +37,13 @@ td {
   height: 35px;
 }
 
+li {
+  margin-left: 25px;
+}
+
 a:hover {
   color: #D9D9D9;
+  transform: scale(1.01);
 }
 
 .data-item {
@@ -70,6 +71,8 @@ a:hover {
 .about-me {
   display: inline-block;
   text-indent: 10px;
+  position: absolute;
+  top: 35px;
 }
 
 .name {
@@ -105,6 +108,10 @@ a:hover {
   color: white;
 }
 
+.personal-info {
+  text-indent: 10px;
+}
+
 .outside {
   margin: 25px auto 0px auto;
   border-top-width: 6px;
@@ -112,6 +119,7 @@ a:hover {
   color: #8F1D14;
   opacity: 100%;
   width: 90%;
+  padding-bottom: 10px;
 }
 
 .in-between {
@@ -146,20 +154,21 @@ a:hover {
   margin: 5px;
 }
 
-/* .lang-rate {
-  padding-left: 100px;
-}
-
-.lang-name {
-  text-indent: 100px;
-} */
-
 .bi-circle-fill, .bi-circle {
   margin: auto 3%;
+}
+
+.project {
+  font-weight: bold;
 }
 
 @media (max-width: 594px) {
   .vr {
     display: none;
+  }
+
+  .about-me {
+    position: relative;
+    top: 0px;
   }
 }
