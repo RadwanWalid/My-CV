@@ -166,7 +166,7 @@ a:hover {
   font-weight: bold;
 }
 
-@media (max-width: 606px) {
+@media (max-width: 552px) {
   .section1, .section2 {
     border-color: #323232;
   }
@@ -175,9 +175,11 @@ a:hover {
     position: relative;
     top: 0px;
   }
+}
 
+
+@media (max-width: 380px) {
   .fluid-container {
     margin: 10px;
   }
-
 }
