@@ -112,6 +112,14 @@ a:hover {
   text-indent: 10px;
 }
 
+.section1 {
+  border-right: 2.5px solid grey;
+}
+
+.section2 {
+  border-left: 2.5px solid grey;
+}
+
 .outside {
   margin: 25px auto 0px auto;
   border-top-width: 6px;
@@ -133,11 +141,6 @@ a:hover {
 
 .fluid-container {
   margin: 10px 50px;
-}
-
-.vr {
-  width: 5px;
-  padding: 0px;
 }
 
 .interest-items {
@@ -162,9 +165,9 @@ a:hover {
   font-weight: bold;
 }
 
-@media (max-width: 594px) {
-  .vr {
-    display: none;
+@media (max-width: 606px) {
+  .section1, .section2 {
+    border-color: #323232;
   }
 
   .about-me {
