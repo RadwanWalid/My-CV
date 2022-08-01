@@ -166,6 +166,10 @@ a:hover {
   font-weight: bold;
 }
 
+.section-break {
+  display: none;
+}
+
 @media (max-width: 552px) {
   .section1, .section2 {
     border-color: #323232;
@@ -175,6 +179,11 @@ a:hover {
     position: relative;
     top: 0px;
   }
+
+  .section-break {
+    display: block;
+  }
+
 }
 
 
