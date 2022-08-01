@@ -73,6 +73,7 @@ a:hover {
   text-indent: 10px;
   position: absolute;
   top: 35px;
+  margin: 5px;
 }
 
 .name {
@@ -140,7 +141,7 @@ a:hover {
 }
 
 .fluid-container {
-  margin: 10px 50px;
+  margin: 25px;
 }
 
 .interest-items {
@@ -173,5 +174,12 @@ a:hover {
   .about-me {
     position: relative;
     top: 0px;
+  }
+}
+
+
+@media (max-width: 380px) {
+  .fluid-container {
+    margin: 10px;
   }
 }
