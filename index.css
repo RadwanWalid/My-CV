@@ -121,8 +121,6 @@ a:hover {
 
 .section2 {
   border-left: 2.5px solid grey;
-  padding-left: 40px;
-  padding-right: 40px;
 }
 
 .outside {
@@ -177,6 +175,8 @@ a:hover {
 @media (max-width: 552px) {
   .section1, .section2 {
     border-color: #323232;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
   }
 
   .about-me {
