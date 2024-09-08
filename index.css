@@ -115,10 +115,14 @@ a:hover {
 
 .section1 {
   border-right: 2.5px solid grey;
+  padding-left: 40px;
+  padding-right: 40px;
 }
 
 .section2 {
   border-left: 2.5px solid grey;
+  padding-left: 40px;
+  padding-right: 40px;
 }
 
 .outside {
